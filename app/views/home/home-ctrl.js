@@ -16,6 +16,7 @@ angular.module('fabech').controller('homeController',function($scope,$rootScope,
     $scope.goToPath = function(path){
 
         $location.path(path);
+        //test git
     };
 
 });

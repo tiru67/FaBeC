@@ -1,0 +1,239 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.navbar-collapse.collapse > ul > li > div{
+
+    padding: 1em;
+}
+
+.app-title{
+    font-size: 44px;
+    font-weight: 200;
+    height: auto;
+    line-height: 46px;
+    text-align: center;
+    width: auto;
+    color: black;
+}
+.sub-title{
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    font-weight: normal;
+    height: 52px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    width: 450px;
+}
+
+.home-bg{
+    background-image: url("assets/img/home_bg.jpeg");
+    background-size: cover;
+}
+
+.services-list{
+    width: 50%;
+    margin-left: 8em;
+}
+
+.services-list >li{
+    font-size: 1.4em;
+    align-content: flex-start;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border-style: solid;
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 0.5em;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-radius: 15px 50px;
+    margin-bottom: 5px;
+    background-color:rgb(0, 131, 182);
+    color: white;
+}
+
+.services-list a, .services-list a:hover, .services-list a:visited{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.wrapping-home {
+    text-align: left;
+    position: relative;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+
+#container {
+    overflow: hidden;
+}
+
+#container >ul{
+    margin: 0; padding: 0;
+}
+
+.photobanner {
+    width: 3550px;
+    margin-bottom: 80px;
+}
+
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+    -ms-animation: bannermove 30s linear infinite;
+    -o-animation: bannermove 30s linear infinite;
+    animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-moz-keyframes bannermove {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-webkit-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-ms-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-o-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+.photobanner {
+    width: 3550px;
+    margin-bottom: 80px;
+}
+
+.photobanner img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+#footer-sec a {
+    color: rgb(255, 255, 255);
+}
+
+.open .dropdown-menu{
+background-color: rgba(0,131,182,0.8);
+}
+
+.open .dropdown-menu a{
+    color: #ffffff;
+}
+.open .dropdown-menu a:hover{
+    color: #ffffff;
+    background-color: #00a6d5;
+}
+@media (max-width: 767px){
+    .navbar-collapse.collapse.in{
+        background-color: #00a6d5;
+        color: #ffffff;
+    }
+}
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #00a6d5;
+}
+
+.dropdown-menu > li > a {
+    color:#FFFFFF;
+}
+
+.container{
+    padding-right: 3em;
+    padding-left: 3em;
+}

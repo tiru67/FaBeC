@@ -1,0 +1,72 @@
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home"><img src="app/assets/img/logo.jpeg"></a>
+        </div>
+        <div id="nav-bar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><div class="dropdown" ng-class="{'open':about}" ng-mouseenter="about=true" ng-mouseleave="about=false">
+                    <a class="dropdown-toggle" id="dropdownAbout" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('about')">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownAbout">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/about?scrollTo=pitch">Our Pitch</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/about?scrollTo=expertise">Our Expertise</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/about?scrollTo=os">Our Operating System</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/about?scrollTo=commitments">Our Commitments</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li>
+                    <div class="dropdown" ng-class="{'open':service}" ng-mouseenter="service=true" ng-mouseleave="service=false">
+                    <a class="dropdown-toggle" id="dropdownServices" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('services')">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownServices">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=ad">App Development</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=hc">Hybrid Cloud</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=so">Service Orchestration</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=cd">Continuous Delivery</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=pm">Project Management</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=cs">Consulting & Staffing</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo= rv">IT RFI/RFP & Vendor Governance</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a aria-expanded="true" ng-click="goToPath('solutions')">
+                            Solutions
+                        </a>
+                    </div></li>
+                <li>
+                <div class="dropdown" ng-class="{'open':career}" ng-mouseenter="career=true" ng-mouseleave="career=false">
+                    <a class=" dropdown-toggle" id="dropdownCareers" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('careers')">
+                        Careers
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownCareers">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/careers?scrollTo=working">Work at Fabec</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/careers?scrollTo=benefits">Benefits</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/careers?scrollTo=potential">Maximize your earning potential</a></li>
+                    </ul>
+                </div></li>
+                <li><div class="dropdown" ng-class="{'open':contact}" ng-mouseenter="contact=true" ng-mouseleave="contact=false">
+                    <a class="dropdown-toggle" id="dropdownContact" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('contact')">
+                        Contact Us
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownContact">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/contact">Clients & Prospects</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/contact">Job Seekers</a></li>
+                    </ul>
+                </div></li>
+            </ul>
+        </div>
+
+    </div>
+</div>

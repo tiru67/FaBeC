@@ -237,3 +237,11 @@ background-color: rgba(0,131,182,0.8);
     padding-right: 3em;
     padding-left: 3em;
 }
+
+.column{
+    text-align: center;
+}
+
+div[ng-view] {
+    padding-top: 6em;
+}

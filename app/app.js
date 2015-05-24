@@ -2,7 +2,7 @@
 
 // Declare app level module which depends on views, and components
 angular.module('fabech', [
-  'ngRoute'
+      'ngRoute'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'})

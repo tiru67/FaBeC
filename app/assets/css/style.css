@@ -345,10 +345,14 @@ button.navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .nav
         color: rgb(51, 122, 183);
         background-color: transparent;
     }
-
-
     .dropdown > a {
     color: black;
     }
+    .dropdown > a:hover {
+        color: rgb(51, 122, 183);
+        background-color: transparent;
+    }
+
 }
+
 

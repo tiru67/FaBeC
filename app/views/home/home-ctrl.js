@@ -4,19 +4,18 @@
 
 angular.module('fabech').controller('homeController',function($scope,$rootScope,$anchorScroll,$location,$timeout,$routeParams,$document){
     $rootScope.$on('$routeChangeSuccess', function(){
-        //window.scrollTo(0,50);
-
+        $document.find('#nav-bar').removeClass('in');
         $location.hash($routeParams.scrollTo);
-        $anchorScroll.yOffset = 100;
+        //$anchorScroll.yOffset = 100;
         $anchorScroll();
 
-        $document.find('#nav-bar').removeClass('in');
+        window.scrollBy(0,-95);
+
     });
 
     $scope.goToPath = function(path){
 
         $location.path(path);
-        //test git
     };
 
 });

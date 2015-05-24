@@ -268,8 +268,27 @@ div[ng-view] {
     color: #ffffff;
 }
 
-
-
 .btn{
     border-color: black;
+}
+
+.gray-color{
+    background-color: rgb(47,59,61);
+}
+
+.home-section2{
+    background-color: rgb(47,59,61);
+}
+
+.home-section2 p{
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.ho-rule{
+    border-top: 1px solid #c0c4c4;
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+    margin: 2em 10em 2em 10em ;
 }

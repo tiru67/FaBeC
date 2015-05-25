@@ -280,10 +280,11 @@ div[ng-view] {
     background-color: rgb(47,59,61);
 }
 
-.home-section2 p{
+.home-section2 p, .home-section2 li{
     color:#ffffff;
     font-size: 20px;
 }
+
 
 .ho-rule{
     border-top: 1px solid #c0c4c4;

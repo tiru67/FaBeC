@@ -20,7 +20,7 @@ h1 {
     margin: 0 0 23px 0;
     color: rgb(0, 131, 182);
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 h2 {
     font-family: 'Lato', serif;

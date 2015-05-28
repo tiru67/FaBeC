@@ -23,5 +23,8 @@ config(['$routeProvider', function($routeProvider) {
       })
       .when('/solutions', {
           templateUrl: 'app/views/services/services.tpl.html'
+      })
+      .when('/partners', {
+          templateUrl: 'app/views/partners/partners.tpl.html'
       });
 }]);

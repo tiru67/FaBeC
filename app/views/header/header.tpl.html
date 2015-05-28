@@ -1,5 +1,5 @@
 
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(255, 255, 255, 0.901961);">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,9 +33,11 @@
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=hc">Hybrid Cloud</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=so">Service Orchestration</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=cd">Continuous Delivery</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=ds">Data Science</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=pm">Project Management</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=cs">Consulting & Staffing</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo= rv">IT RFI/RFP & Vendor Governance</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=tain">Training</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=rv">IT RFI/RFP & Vendor Governance</a></li>
                     </ul>
                 </div>
                 </li>
@@ -56,6 +58,18 @@
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#/careers?scrollTo=potential">Maximize your earning potential</a></li>
                     </ul>
                 </div></li>
+
+                <li><div class="dropdown" ng-class="{'open':partners}" ng-mouseenter="partners=true" ng-mouseleave="partners=false">
+                    <a class=" dropdown-toggle" id="dropdownPartners" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('careers')">
+                        Partners
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownPartners">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/partners?scrollTo=rh">Recruit Hub</a></li>
+                    </ul>
+                </div></li>
+
+
+
                 <li><div class="dropdown" ng-class="{'open':contact}" ng-mouseenter="contact=true" ng-mouseleave="contact=false">
                     <a class="dropdown-toggle" id="dropdownContact" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('contact')">
                         Contact Us

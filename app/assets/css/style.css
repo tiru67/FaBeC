@@ -377,9 +377,9 @@ button.navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .nav
     .navbar-inverse .navbar-nav .dropdown-menu > li > a {
         text-align:center;
         text-transform:uppercase;
-       word-wrap: break-word;
-    
+        word-wrap: break-word;
         padding: 1em;
+        font-size: 16px;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li {

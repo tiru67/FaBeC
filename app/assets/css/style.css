@@ -1,4 +1,4 @@
-﻿/*=============================================================
+/*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -52,6 +52,18 @@ p {
     margin: 0 0 23px 0;
     text-decoration: none;
     cursor: pointer;
+}
+@media (min-width: 768px){
+.navbar-nav > li > div > a {
+   border-right: 1px solid #000;
+   padding-right: 1em;
+}
+}
+
+@media (min-width: 768px){
+.navbar-nav > li:last-child > div > a{
+    border-right: none;
+}
 }
 
 
@@ -362,6 +374,29 @@ button.navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .nav
         background-color: transparent;
     }
 
+    .navbar-inverse .navbar-nav .dropdown-menu > li > a {
+        text-align:center;
+        text-transform:uppercase;
+       word-wrap: break-word;
+    
+        padding: 1em;
 }
 
+.navbar-inverse .navbar-nav .dropdown-menu > li {
+    /* padding: 1em; */
+}
+
+}
+
+
+/*
+.centerDropdown {
+    left: auto !important;
+    right: 0;
+}
+.centerDropdown:after {
+    left: auto !important;
+    right: 45% !important;
+}
+*/
 

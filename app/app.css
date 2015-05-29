@@ -293,3 +293,11 @@ div[ng-view] {
     overflow: hidden;
     margin: 2em 10em 2em 10em ;
 }
+
+@media (min-width: 767px) {
+    section.home-section2 .container {
+        text-align: center;
+        width: 940px;
+        margin: 0 auto;
+    }
+}

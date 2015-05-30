@@ -291,7 +291,7 @@ div[ng-view] {
     clear: both;
     height: 1px;
     overflow: hidden;
-    margin: 2em 10em 2em 10em ;
+    margin: 2em 0em 2em 0em ;
 }
 
 /*
@@ -302,6 +302,17 @@ div[ng-view] {
         margin: 0 auto;
     }
 }*/
+
+section.home-section2 .container {
+    text-align: center;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+section.home-section2 .container ul,td{
+    text-align: left;
+}
+
 .v-cover{
     width: 100%;
     position: absolute;

@@ -302,3 +302,9 @@ div[ng-view] {
         margin: 0 auto;
     }
 }*/
+.v-cover{
+    width: 100%;
+    position: absolute;
+    bottom: 0em;
+    pointer-events: none;
+}

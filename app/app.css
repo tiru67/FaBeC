@@ -319,3 +319,17 @@ section.home-section2 .container ul,td{
     bottom: 0em;
     pointer-events: none;
 }
+
+h4[ng-click]{
+    cursor: pointer;
+}
+
+.copyright{
+    float: right;
+    font-size: 13px;
+    color: #91bbd5 !important;
+}
+
+.wrapping-home h1{
+    text-align: left;
+}

@@ -30,45 +30,57 @@
     <div class="container">
         <div class="row  pad-bottom">
             <div class="col-md-3">
-                <h4> <strong>Contact Us</strong> </h4>
+                <h4 ng-click="goToPath('contact')"> <strong>Contact Us</strong> </h4>
                 <ul style="list-style: none;margin: 0;padding: 0;">
                     <li><span class="glyphicon glyphicon-earphone"></span><a> 1-732-328-9119</a></li>
                     <li><span class="glyphicon glyphicon-envelope"></span><a> careers@fabecit.com</a></li>
                     <li><span class="glyphicon glyphicon-envelope"></span><a> sales@fabecit.com</a></li>
-                    <li><a>3535 Quakerbridge Road</a></li>
-                    <li><a>Suite 6150</a></li>
+                    <li><a>3525 Quakerbridge Road</a></li>
+                    <li><a>Suite 6200</a></li>
                     <li><a>Hamilton, NJ 08619</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h4> <strong>About Us</strong> </h4>
+                <h4 ng-click="goToPath('home')"> <strong>About Us</strong> </h4>
                 <ul style="list-style: none;margin: 0;padding: 0;">
                     <li><a ng-href="#/home?scrollTo=pitch">Who we are</a></li>
                     <li><a ng-href="#/home?scrollTo=expertise">Our Expertise</a></li>
-                    <li><a ng-href="#/home?scrollTo=os">Our Operating System</a></li>
+                    <!--<li><a ng-href="#/home?scrollTo=os">Our Operating System</a></li>-->
                     <li><a ng-href="#/home?scrollTo=commitments">Our Commitments</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h4> <strong>Services</strong> </h4>
+                <h4 ng-click="goToPath('services')"> <strong>Services</strong> </h4>
                 <ul style="list-style: none;margin: 0;padding: 0;">
                     <li><a ng-href="#/services?scrollTo=ad">App Development</a></li>
                     <li><a ng-href="#/services?scrollTo=hc">Hybrid Cloud</a></li>
                     <li><a ng-href="#/services?scrollTo=so">Service Orchestration</a></li>
                     <li><a ng-href="#/services?scrollTo=cd">Continuous Delivery</a></li>
+                    <li><a ng-href="#/services?scrollTo=ds">Data Science</a></li>
                     <li><a ng-href="#/services?scrollTo=pm">Project Management</a></li>
                     <li><a ng-href="#/services?scrollTo=cs">Consulting & Staffing</a></li>
+                    <li><a ng-href="#/services?scrollTo=train">Training</a></li>
                     <li><a ng-href="#/services?scrollTo=rv">IT RFI/RFP & Vendor Governance</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h4> <strong>Careers</strong> </h4>
+                <h4 ng-click="goToPath('careers')"> <strong>Careers</strong> </h4>
                 <ul style="list-style: none;margin: 0;padding: 0;">
                     <li><a ng-href="#/careers?scrollTo=working">Work at Fabec</a></li>
                     <li><a ng-href="#/careers?scrollTo=benefits">Benefits</a></li>
                     <li><a ng-href="#/careers?scrollTo=potential">Maximize your earning potential</a></li>
                 </ul>
             </div>
+           <!-- <div class="col-md-3">
+                <h4 ng-click="goToPath('partners')"> <strong>Partners</strong> </h4>
+                <ul style="list-style: none;margin: 0;padding: 0;">
+                    <li><a ng-href="#/partners?scrollTo=rh">Recruit Hub</a></li>
+                </ul>
+            </div>-->
+        </div>
+        <div class="row  pad-bottom">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"> <div class="copyright">© 2015 FaBeC Inc. All rights reserved.</div></div>
         </div>
     </div>
 </section>

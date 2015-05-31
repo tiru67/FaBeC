@@ -303,6 +303,12 @@ div[ng-view] {
     }
 }*/
 
+@media (min-width: 767px) {
+    #home{
+        height: 522px;
+    }
+}
+
 section.home-section2 .container {
     text-align: center;
     max-width: 940px;
@@ -332,4 +338,8 @@ h4[ng-click]{
 
 .wrapping-home h1{
     text-align: left;
+}
+
+.dropdown-menu{
+    top: 98%;
 }

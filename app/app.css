@@ -343,3 +343,18 @@ h4[ng-click]{
 .dropdown-menu{
     top: 98%;
 }
+
+@media (min-width: 767px) {
+    .navbar-brand{
+        margin-top: -0.3em;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-top: -0.95em;
+        width: 80%;
+    }
+}
+
+

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AgencyFB-Reg';
+  src: url('AgencyFB-Reg.eot');
+  src: url('AgencyFB-Reg.eot?#iefix') format('embedded-opentype'),
+       url('AgencyFB-Reg.woff2') format('woff2'),
+       url('AgencyFB-Reg.woff') format('woff'),
+       url('AgencyFB-Reg.ttf') format('truetype'),
+       url('AgencyFB-Reg.svg#AgencyFB-Reg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

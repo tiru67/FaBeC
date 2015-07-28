@@ -12,48 +12,61 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
+html {
+    font-family: 'Lato', serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    padding: 0 0 1.3em;
+}
 h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    line-height: 51px;
-    font-size: 46px;
+    font-family: 'Tungsten-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 62px;
+    font-size: 62px;
     margin: 0 0 23px 0;
     color: rgb(0, 131, 182);
     text-align: center;
     text-transform: capitalize;
 }
 h2 {
-    font-family: 'Lato', serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-family: 'Tungsten-Medium', serif;
+    font-weight: normal;
+    font-size: 35px;
     color: rgb(0, 131, 182);
-    line-height: 23px;
+    line-height: 35px;
     margin: 0 0 23px 0;
 }
 h3{
-    font-family: 'Lato', serif;
+    font-family: 'Tungsten-Medium', serif;
     font-weight: 300;
     font-size: 20px;
     color: rgb(0, 131, 182);
     line-height: 23px;
     margin: 0 0 23px 0;
 }
-p {
-    font-family: 'Lato', serif;
-    font-size: 15px;
-    line-height: 1.4em;
-    padding: 0 0 1.3em;
+
+h4{
+    font-family: 'Tungsten-Medium', serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgb(0, 131, 182);
+    line-height: 28px;
+    margin: 0 0 23px 0;
 }
 
+
+.dropdown{
+    font-family:'Tungsten-Medium';
+}
 .dropdown > a{
-    font-family:'Droid Serif', serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
     margin: 0 0 23px 0;
     text-decoration: none;
     cursor: pointer;
 }
+
 @media (min-width: 768px){
 .navbar-nav > li > div > a {
    border-right: 1px solid #000;
@@ -380,7 +393,7 @@ button.navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .nav
         text-transform:uppercase;
         word-wrap: break-word;
         padding: 1em;
-        font-size: 16px;
+        font-size: 22px;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li {

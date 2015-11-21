@@ -344,10 +344,29 @@ h4[ng-click]{
     top: 98%;
 }
 
+.fabec-ico{
+    max-width: 9em;
+    margin-top: 5px;
+}
+
+
+#nav-bar{
+    margin-right: -3.5em;
+}
+
 @media (min-width: 767px) {
     .navbar-brand{
         margin-top: -0.3em;
     }
+
+    .container > .navbar-header{
+        margin-left: -5em;
+    }
+
+    .fabec-ico{
+        margin-top: 5px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -355,6 +374,22 @@ h4[ng-click]{
         margin-top: -0.95em;
         width: 80%;
     }
+
+    .container > .navbar-header{
+        margin-left: -6em;
+    }
+
+    .fabec-ico{
+        margin-top: 9px;
+    }
 }
+
+@media (min-width: 1024px){
+    .fabec-ico{
+        max-width: 13em;
+    }
+}
+
+
 
 

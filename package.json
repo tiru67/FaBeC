@@ -1,0 +1,15 @@
+{
+  "name": "FaBeC",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "repository": "",
+  "author": "Tiru",
+  "devDependencies": {
+    "http-server": "^0.7.5"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -p 8000 -c-1"
+  }
+}

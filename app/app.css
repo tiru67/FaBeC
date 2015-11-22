@@ -303,11 +303,11 @@ div[ng-view] {
     }
 }*/
 
-@media (min-width: 767px) {
+/*@media (min-width: 767px) {
     #home{
         height: 522px;
     }
-}
+}*/
 
 section.home-section2 .container {
     text-align: center;
@@ -404,6 +404,8 @@ h4[ng-click]{
     text-align: left;
 }
 
-
+.remove-section-padding{
+    padding-top: 0px;
+}
 
 

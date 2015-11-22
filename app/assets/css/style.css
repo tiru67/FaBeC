@@ -79,6 +79,12 @@ h4{
     color: rgb(0, 131, 182);
 }
 
+.btn{
+    font-family:'Tungsten-Medium';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 .dropdown{
     font-family:'Tungsten-Medium';
 }

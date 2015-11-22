@@ -54,6 +54,19 @@ h4{
     margin: 0 0 23px 0;
 }
 
+.secondary-line{
+    font-family: 'AgencyFB-Reg', serif;
+    line-height: 62px;
+    font-size: 46px;
+    color: rgb(0, 131, 182);
+}
+
+.tertiary-line{
+    font-family: 'AgencyFB-Reg', serif;
+    line-height: 62px;
+    font-size: 30px;
+    color: rgb(0, 131, 182);
+}
 
 .dropdown{
     font-family:'Tungsten-Medium';

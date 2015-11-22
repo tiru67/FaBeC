@@ -54,6 +54,17 @@ h4{
     margin: 0 0 23px 0;
 }
 
+.primary-line{
+    font-family: 'Tungsten-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 62px;
+    font-size: 62px;
+    margin: 0 0 23px 0;
+    color: rgb(0, 131, 182);
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .secondary-line{
     font-family: 'AgencyFB-Reg', serif;
     line-height: 62px;

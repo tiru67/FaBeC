@@ -45,32 +45,32 @@
             <div class="col-md-3">
                 <h4 ng-click="goToPath('home')"> About Us</h4>
                 <ul style="list-style: none;margin: 0;padding: 0;">
-                    <li><a ng-href="#/home?scrollTo=pitch">Who we are</a></li>
-                    <li><a ng-href="#/home?scrollTo=expertise">Our Expertise</a></li>
+                    <li><a ng-click="goToElement('home','pitch')">Who we are</a></li>
+                    <li><a ng-click="goToElement('home','expertise')">Our Expertise</a></li>
                     <!--<li><a ng-href="#/home?scrollTo=os">Our Operating System</a></li>-->
-                    <li><a ng-href="#/home?scrollTo=commitments">Our Commitments</a></li>
+                    <li><a ng-click="goToElement('home','commitments')">Our Commitments</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
                 <h4 ng-click="goToPath('services')"> Services</h4>
                 <ul style="list-style: none;margin: 0;padding: 0;">
-                    <li><a ng-href="#/services?scrollTo=ad">App Development</a></li>
-                    <li><a ng-href="#/services?scrollTo=hc">Hybrid Cloud</a></li>
-                    <li><a ng-href="#/services?scrollTo=so">Service Orchestration</a></li>
-                    <li><a ng-href="#/services?scrollTo=cd">Continuous Delivery</a></li>
-                    <li><a ng-href="#/services?scrollTo=ds">Data Science</a></li>
-                    <li><a ng-href="#/services?scrollTo=pm">Project Management</a></li>
-                    <li><a ng-href="#/services?scrollTo=cs">Consulting & Staffing</a></li>
-                    <li><a ng-href="#/services?scrollTo=train">Training</a></li>
-                    <li><a ng-href="#/services?scrollTo=rv">IT RFI/RFP & Vendor Governance</a></li>
+                    <li><a ng-click="goToElement('services','ad')">App Development</a></li>
+                    <li><a ng-click="goToElement('services','hc')">Hybrid Cloud</a></li>
+                    <li><a ng-click="goToElement('services','so')">Service Orchestration</a></li>
+                    <li><a ng-click="goToElement('services','cd')">Continuous Delivery</a></li>
+                    <li><a ng-click="goToElement('services','ds')">Data Science</a></li>
+                    <li><a ng-click="goToElement('services','pm')">Project Management</a></li>
+                    <li><a ng-click="goToElement('services','cs')">Consulting & Staffing</a></li>
+                    <li><a ng-click="goToElement('services','train')">Training</a></li>
+                    <li><a ng-click="goToElement('services','rv')">IT RFI/RFP & Vendor Governance</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
                 <h4 ng-click="goToPath('careers')"> Careers</h4>
                 <ul style="list-style: none;margin: 0;padding: 0;">
-                    <li><a ng-href="#/careers?scrollTo=working">Work at Fabec</a></li>
-                    <li><a ng-href="#/careers?scrollTo=benefits">Benefits</a></li>
-                    <li><a ng-href="#/careers?scrollTo=potential">Maximize your earning potential</a></li>
+                    <li><a ng-click="goToElement('careers','working')">Work at Fabec</a></li>
+                    <li><a ng-click="goToElement('careers','benefits')">Benefits</a></li>
+                    <li><a ng-click="goToElement('careers','potential')">Maximize your earning potential</a></li>
                 </ul>
             </div>
            <!-- <div class="col-md-3">

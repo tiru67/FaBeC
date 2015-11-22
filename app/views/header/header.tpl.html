@@ -16,10 +16,10 @@
                         About Us
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownAbout">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/home?scrollTo=pitch">Who we are</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/home?scrollTo=expertise">Our Expertise</a></li><!--
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('home','pitch')">Who we are</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('home','expertise')">Our Expertise</a></li><!--
                         <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/home?scrollTo=os">Our Operating System</a></li>-->
-                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-href="#/home?scrollTo=commitments">Our Commitments</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('home','commitments')">Our Commitments</a></li>
                     </ul>
                 </div>
                 </li>
@@ -29,15 +29,15 @@
                         Services
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownServices">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=ad">App Development</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=hc">Hybrid Cloud</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=so">Service Orchestration</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=cd">Continuous Delivery</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=ds">Data Science</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=pm">Project Management</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=cs">Consulting & Staffing</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=train">Training</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/services?scrollTo=rv">IT RFI/RFP & Vendor Governance</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','ad')">App Development</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','hc')">Hybrid Cloud</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','so')">Service Orchestration</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','cd')">Continuous Delivery</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','ds')">Data Science</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','pm')">Project Management</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','cs')">Consulting & Staffing</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','train')">Training</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('services','rv')">IT RFI/RFP & Vendor Governance</a></li>
                     </ul>
                 </div>
                 </li>
@@ -53,9 +53,9 @@
                         Careers
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownCareers">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/careers?scrollTo=working">Work at Fabec</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/careers?scrollTo=benefits">Benefits</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/careers?scrollTo=potential">Maximize your earning potential</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1"  ng-click="goToElement('careers','working')">Work at Fabec</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1"  ng-click="goToElement('careers','benefits')">Benefits</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1"  ng-click="goToElement('careers','potential')">Maximize your earning potential</a></li>
                     </ul>
                 </div></li>
 
@@ -64,7 +64,7 @@
                         Partners
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownPartners">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/partners?scrollTo=register">Recruit Hub</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('partners','register')">Recruit Hub</a></li>
                     </ul>
                 </div></li>
 
@@ -75,8 +75,8 @@
                         Contact Us
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownContact">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/contact?scrollTo=contact">Clients & Prospects</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#/contact?scrollTo=contact">Job Seekers</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('contact','contact')">Clients & Prospects</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" ng-click="goToElement('contact','contact')">Job Seekers</a></li>
                     </ul>
                 </div></li>
             </ul>

@@ -2,7 +2,7 @@
  * Created by Tiru on 5/16/15.
  */
 
-angular.module('Fabec').controller('homeController',function($scope,$rootScope,$anchorScroll,$location,$timeout,$routeParams,$document){
+angular.module('Fabec').controller('homeController',function($scope,$rootScope,$anchorScroll,$location,$timeout,$routeParams,$document,anchorSmoothScroll){
     $rootScope.$on('$routeChangeSuccess', function(){
         $document.find('#nav-bar').removeClass('in');
 
@@ -16,6 +16,18 @@ angular.module('Fabec').controller('homeController',function($scope,$rootScope,$
 
     $scope.goToPath = function(path){
         window.location.hash = "#/"+path;
+
+    };
+
+    $scope.goToElement = function (path,eID){
+        // set the location.hash to the id of
+        // the element you wish to scroll to.
+        $location.path(path);
+
+        // call $anchorScroll()
+        $timeout(function(){
+            anchorSmoothScroll.scrollTo(eID);
+        },100);
 
     };
 

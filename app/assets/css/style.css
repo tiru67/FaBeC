@@ -87,6 +87,13 @@ h4{
     font-family:'Tungsten-Medium', serif;
     font-size: 20px;
     text-transform: uppercase;
+    border-radius: 0;
+    color: rgb(0, 131, 182);
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #ffffff;
 }
 
 .dropdown{

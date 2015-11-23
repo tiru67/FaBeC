@@ -388,6 +388,10 @@ h4[ng-click]{
     .fabec-ico{
         margin-top: 9px;
     }
+
+    #footer-sec h4{
+        margin: 1em 0 .5em 0;
+    }
 }
 
 @media (min-width: 1024px){
@@ -408,5 +412,7 @@ h4[ng-click]{
 .remove-section-padding{
     padding-top: 0px;
 }
+
+
 
 

@@ -19,10 +19,7 @@ html {
     padding: 0 0 1.3em;
 }
 h1 {
-    font-family: 'Tungsten-Medium', sans-serif;
-    font-weight: normal;
-    line-height: 62px;
-    font-size: 62px;
+    font: 62px/1em Tungsten-Medium;
     margin: 0 0 23px 0;
     color: rgb(0, 131, 182);
     text-align: center;
@@ -55,10 +52,7 @@ h4{
 }
 
 .primary-line{
-    font-family: 'Tungsten-Medium', sans-serif;
-    font-weight: normal;
-    line-height: 62px;
-    font-size: 62px;
+    font: 62px/1em Tungsten-Medium;
     margin: 0 0 23px 0;
     color: rgb(0, 131, 182);
     text-align: center;
@@ -84,12 +78,17 @@ h4{
 }
 
 .btn{
-    font-family:'Tungsten-Medium', serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 0;
-    color: rgb(0, 131, 182);
+    font-family:'Lato';
+    color: #2f3b3d;
+    display: inline-block;
+    font-size: 13px;
+    height: 43px;
+    line-height: 43px;
     text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 25px;
+    border: 1px solid #354143;
+    border-radius: 0;
 }
 
 .btn:hover{

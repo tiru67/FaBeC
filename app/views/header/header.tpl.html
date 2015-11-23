@@ -12,7 +12,7 @@
         <div id="nav-bar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><div class="dropdown" ng-class="{'open':about}" ng-mouseenter="about=true" ng-mouseleave="about=false">
-                    <a class="dropdown-toggle" id="dropdownAbout" data-toggle="dropdown" aria-expanded="true" ng-click="goToElement('home','home')">
+                    <a class="dropdown-toggle" id="dropdownAbout" data-toggle="dropdown" aria-expanded="true" ng-click="goToElement('home','nav-bar')">
                         About Us
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownAbout">
@@ -25,7 +25,7 @@
                 </li>
                 <li>
                     <div class="dropdown" ng-class="{'open':service}" ng-mouseenter="service=true" ng-mouseleave="service=false">
-                    <a class="dropdown-toggle" id="dropdownServices" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('services')">
+                    <a class="dropdown-toggle" id="dropdownServices" data-toggle="dropdown" aria-expanded="true" ng-click="goToElement('services','nav-bar')">
                         Services
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownServices">
@@ -49,7 +49,7 @@
                     </div></li>
                 <li>
                 <div class="dropdown" ng-class="{'open':career}" ng-mouseenter="career=true" ng-mouseleave="career=false">
-                    <a class=" dropdown-toggle" id="dropdownCareers" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('careers')">
+                    <a class=" dropdown-toggle" id="dropdownCareers" data-toggle="dropdown" aria-expanded="true" ng-click="goToElement('careers','nav-bar')">
                         Careers
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownCareers">
@@ -60,7 +60,7 @@
                 </div></li>
 
                 <li><div class="dropdown" ng-class="{'open':partners}" ng-mouseenter="partners=true" ng-mouseleave="partners=false">
-                    <a class=" dropdown-toggle" id="dropdownPartners" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('partners')">
+                    <a class=" dropdown-toggle" id="dropdownPartners" data-toggle="dropdown" aria-expanded="true" ng-click="goToElement('partners','nav-bar')">
                         Partners
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownPartners">
@@ -71,7 +71,7 @@
 
 
                 <li><div class="dropdown" ng-class="{'open':contact}" ng-mouseenter="contact=true" ng-mouseleave="contact=false">
-                    <a class="dropdown-toggle" id="dropdownContact" data-toggle="dropdown" aria-expanded="true" ng-click="goToPath('contact')">
+                    <a class="dropdown-toggle" id="dropdownContact" data-toggle="dropdown" aria-expanded="true" ng-click="goToElement('contact','nav-bar')">
                         Contact Us
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownContact">

@@ -66,21 +66,25 @@ h4{
 }
 
 .secondary-line{
-    font-family: 'AgencyFB-Reg', serif;
-    line-height: 62px;
-    font-size: 46px;
+    font-family: 'Tungsten-Medium', serif;
+    font-weight: normal;
+    font-size: 35px;
     color: rgb(0, 131, 182);
+    line-height: 35px;
+    margin: 0 0 23px 0;
 }
 
 .tertiary-line{
-    font-family: 'AgencyFB-Reg', serif;
-    line-height: 62px;
-    font-size: 30px;
+    font-family: 'Tungsten-Medium', serif;
+    font-weight: 300;
+    font-size: 25px;
     color: rgb(0, 131, 182);
+    line-height: 23px;
+    margin: 0 0 23px 0;
 }
 
 .btn{
-    font-family:'Tungsten-Medium';
+    font-family:'Tungsten-Medium', serif;
     font-size: 20px;
     text-transform: uppercase;
 }

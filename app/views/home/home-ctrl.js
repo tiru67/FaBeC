@@ -25,6 +25,7 @@ angular.module('Fabec').controller('homeController',function($scope,$rootScope,$
         $location.path(path);
 
         // call $anchorScroll()
+        $document.find('#nav-bar').removeClass('in');
         $timeout(function(){
             anchorSmoothScroll.scrollTo(eID);
         },100);

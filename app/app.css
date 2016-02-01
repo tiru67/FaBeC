@@ -420,4 +420,18 @@ h4[ng-click]{
     padding-top: 0px;
 }
 
+@media (max-width: 320px) {
+    .home-bg{
+        height: 100em;
+        background-position-y: 20em;
+    }
+}
 
+.home-bg{
+    width: 100%;
+    height: 50em;
+    background-image: url('/app/assets/img/bgs/01-Home.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 100%;
+}
